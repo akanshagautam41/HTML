@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" cellspacing = "0" cellpading="15">
+        <tr>
+            <th>Student name</th>
+            <th>Student Reg No.</th>
+            <th>Student name</th>
+            <th>Obtained Marks</th>
+            <th>Total marks</th>
+            <th>Average marks</th>
+
+        </tr>
+        <tr>
+            <td rowspan="3" align="center">Alan</td>
+            <td rowspan="3" align="center">std-01</td>
+        <td>Maths</td>
+        <td>50.00</td>
+        <td rowspan="3" align="center">150.00</td>
+        <td rowspan="3" align="center">50.00 </td>
+        <tr>
+            <td>Physics</td>
+            <td>50.00</td>
+            <tr>
+                <td>Chemistry</td>
+                <td>50.00</td>
+
+            </tr>
+        </tr>
+    </tr>
+    <tr>
+        <td rowspan="3" align="center">scott</td>
+        <td rowspan="3" align="center">std-01</td>
+    <td>Maths</td>
+    <td>50.00</td>
+    <td rowspan="3" align="center">150.00</td>
+    <td rowspan="3" align="center">50.00 </td>
+    <tr>
+        <td>Physics</td>
+        <td>50.00</td>
+        <tr>
+            <td>Chemistry</td>
+            <td>50.00</td>
+
+        </tr>
+    </tr>
+</tr>
+<tr>
+    <td rowspan="3" align="center">john</td>
+    <td rowspan="3" align="center">std-01</td>
+<td>Maths</td>
+<td>50.00</td>
+<td rowspan="3" align="center">150.00</td>
+<td rowspan="3" align="center">50.00 </td>
+<tr>
+    <td>Physics</td>
+    <td>50.00</td>
+    <tr>
+        <td>Chemistry</td>
+        <td>50.00</td>
+
+    </tr>
+</tr>
+        </tr>
+    
+    </table>
+
+</body>
+</html>
