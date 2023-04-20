@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Table</title>
+</head>
+<body>
+    <table border="1" cellspacing="0" cellpadding="15">
+        <tr>
+            <th>CAR INFORMATION</th>
+            <th>CAR IMAGE</th>
+            <th>TOP SPEED</th>
+            <th>AVRAGE</th>
+            <th>TOTAL PRICE</th>
+            <th>TOTAL SELL</th>
+        </tr>
+        <tr>
+            <th rowspan="3">List ITEAMS 
+                <ol>
+                    <li>CAR BAND
+                        <ol start="5">
+                            <li>TATA</li>
+                            <li>MAHENDRA</li>
+                            <li>LEMBORGINHI</li>
+                        </ol>
+                    </li>
+                    <li>DEVICE NAME
+                        <ol type="a" >
+                            <li>PHONE</li>
+                            <li>TV</li>
+                            <li>LAPTOP</li>
+                        </ol>
+                    </li>
+                    <li>ITEM3</li>
+                    <li>ITEM4</li>
+                </ol>
+            </th>
+            <th rowspan="3">CAR IMG 
+                <img src="https://th.bing.com/th/id/R.7ed5eef1cb1c0faf0e06bd29f900e2ff?rik=5SPdYr3n5Lfuvw&riu=http%3a%2f%2fstatic4.businessinsider.com%2fimage%2f58fe49fb0ba0b8ea048b59e9-2400&ehk=eEn110aUTrq0hz%2bJ%2fBb1VuOewIbx42WnS1noEQ4JBIM%3d&risl=&pid=ImgRaw&r=0" alt="car" width="200">
+            </th>
+            <td>280 KMPH</td>
+            <td>50.00</td>
+            <td rowspan="3">150.00</td>
+            <td rowspan="3">50.00</td>
+            <tr>
+                <td>Maths</td>
+                <td>50.00</td>
+            </tr>
+            <tr>
+                <td>Maths</td>
+                <td>50.00</td>
+            </tr>
+<tr>
+    <th rowspan="3">CARS IMAGES
+        <img src="https://th.bing.com/th/id/R.7ed5eef1cb1c0faf0e06bd29f900e2ff?rik=5SPdYr3n5Lfuvw&riu=http%3a%2f%2fstatic4.businessinsider.com%2fimage%2f58fe49fb0ba0b8ea048b59e9-2400&ehk=eEn110aUTrq0hz%2bJ%2fBb1VuOewIbx42WnS1noEQ4JBIM%3d&risl=&pid=ImgRaw&r=0" alt="car IMAGE" height="100" width="100">
+        <img src="https://i.ytimg.com/vi/07eOrfwrGdE/hqdefault.jpg" alt="car IMAGE"" height="100" width="100">
+        <img src="https://th.bing.com/th/id/OIP.s_Ax7wIdAWMA1u-QGt-jxwHaEo?pid=ImgDet&rs=1" alt="car IMAGE"" height="100" width="100">
+   
+    </th>
+    <th rowspan="3">List ITEAMS 
+        <ul >
+            <li>Car Band</li>
+            <ul>
+            <li>FORD</li>
+            <li>MAHENDRA</li>
+            <li>LEMBORGINHI</li>
+            </ul>
+            
+        </ul>
+    </th>
+    <td>280 KMPH</td>
+            <td>50.00</td>
+            <td rowspan="3">150.00</td>
+            <td rowspan="3">50.00</td>
+            <tr>
+                <td>Maths</td>
+                <td>50.00</td>
+            </tr>
+            <tr>
+                <td>Maths</td>
+                <td>50.00</td>
+            </tr>
+            <tr>
+                <th rowspan="3">List ITEAMS
+                    <ul start="triangle">
+                        <h4>CAR BAND 
+                            <li>TATA</li> </h4>
+                        
+                        <h4>BEST CAR IN YOUR CHOICE </h4>
+                            <li>FORD MUSTANG</li>
+                            <li>LAMBORGINHI</li>
+                        
+    
+                    </ul>
+                </th>
+                <th rowspan="3">CAR IMG 
+                    <img src="https://th.bing.com/th/id/R.7ed5eef1cb1c0faf0e06bd29f900e2ff?rik=5SPdYr3n5Lfuvw&riu=http%3a%2f%2fstatic4.businessinsider.com%2fimage%2f58fe49fb0ba0b8ea048b59e9-2400&ehk=eEn110aUTrq0hz%2bJ%2fBb1VuOewIbx42WnS1noEQ4JBIM%3d&risl=&pid=ImgRaw&r=0" alt="car" width="200">
+                </th>
+                <td>280 KMPH</td>
+            <td>50.00</td>
+            <td rowspan="3">150.00</td>
+            <td rowspan="3">50.00</td>
+            <tr>
+                <td>Maths</td>
+                <td>50.00</td>
+            </tr>
+            <tr>
+                <td>Maths</td>
+                <td>50.00</td>
+            </tr>
+    
+</tr>
+            
+            
+            
+            </tr>
+    </table>
+
+</body>
+</html>
