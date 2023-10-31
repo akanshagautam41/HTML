@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact map</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            width: 50%;
+            background-color: rgb(10, 192, 248);
+            margin: 20px auto;
+           
+            
+        }
+
+    /* contact us h1 css */
+
+        h1{
+            margin: 20px auto;
+            width: 90%;
+            border-bottom: 2px solid grey;
+            font-weight: 100;
+           padding-bottom: 10px;
+           padding-top: 10px;
+           font-size: x-large;
+            
+        }
+
+         /* address box starting css */
+        .box{
+            width: 90%;
+            background-color: white;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+           
+            
+        }
+        .bx{
+            width: 30%;
+           margin: 10px;
+           row-gap: 50px;
+           font-size: small;
+        }
+        .bx span{
+            line-height: 2;
+          
+        }                                        
+        .bx1{
+            width: 30%;
+            margin: 20px auto;
+            padding-top: 20px;
+            font-size: small;
+            
+        }
+
+        
+        .bx1 p{
+         
+            line-height: 0.7;
+        }
+        .bx2{                            
+            width: 30%;
+            margin: 40px auto;
+            text-align: center;
+        }
+        
+      
+        
+       /* address box ending css */
+
+       /* starting box of form and google map  css */
+        .box1{
+            width: 90%;
+            background-color: rgb(255, 255, 255);
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .lf-bx{
+            width: 48%;
+           margin: 20px auto;
+           
+           
+        }
+        .rgt-bx{
+            width: 48%;
+           margin: 20px auto;
+        }
+
+       
+        .rgt-bx .frame{
+            width: 100%;
+            height: inherit;
+        }
+
+        .rgt-bx .frame iframe{
+            width: 100%;
+            height: inherit;
+        }
+        .frm{
+            width: 90%;
+           display: flex;
+            justify-content: space-between;
+             }
+
+        .frm .txt-lf{
+            width: 45%;
+            
+        }
+        .frm .txt-lf input{
+            width: 100%;
+           
+        }
+        .frm .txt-rgt{
+            width: 45%;
+            
+            
+        }
+        .frm .txt-rgt input{
+            width: 100%;
+           
+        }
+        .frm2{
+            width: 90%;
+            padding-top: 8px;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .frm2 .txt1-lf{
+            width: 45%;
+            
+        }
+        .frm2 .txt1-lf input{
+            width: 100%;
+            
+        }
+        .frm2 .txt2-rgt{
+            width: 45%;
+        }
+        .frm2 .txt2-rgt input{
+            width: 100%;
+            
+        }
+        .frm3{
+            width: 90%;
+            padding-top: 8px;
+            
+        }
+        .frm3 textarea{
+            width: 100%;
+            height: 60px;
+        }
+        .bt{
+           width: 25%;
+           margin-top: 20px;
+           margin-left: 10px;
+  
+           
+        }
+        .bt input{
+            background-color: red;
+            width: 100%;
+            height: 25px;
+           color: aliceblue;
+           border: none;
+        }
+        
+        .main{
+            padding-bottom: 1%;
+        }
+        
+
+        .icon{
+            margin-top: 10px;
+        }
+
+        @media screen and (max-width:768px) {
+    .main {
+        padding: 10px;
+        width: 90%;
+        background-color:rgb(10, 192, 248) !important;
+    }
+
+    .box,
+    .box1 {
+        width: 100%;
+        margin: 0 ;
+        padding: 0;
+        margin: 10px 0px;
+       
+    }
+
+    .bx,
+    .bx1 {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        flex-direction: column;
+        padding-bottom: 10px;
+        
+    }
+
+    .bx2 {
+        width: 100%;
+        text-align: center;
+        margin: 0 ;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+
+    .lf-bx,
+    .rgt-bx {
+        width: 100%;
+        
+    }
+
+    .frm,
+    .frm2{
+        width: 100%;
+        flex-direction: row;
+        margin: 0;
+        
+        
+    }
+    .frm3{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .frm .txt-lf,
+    .frm .txt-rgt,
+    .frm2 .txt1-lf ,
+    .frm2 .txt2-rgt {
+        width: 90%;
+        margin: 0;
+        padding: 5px;
+        
+        }
+
+        .frm3{
+        padding-top: 5px;
+        text-align: center;
+        }
+    .frm3 textarea {
+        width: 98%;
+    }
+
+    .bt {
+        padding-top: 10px;
+       
+    }
+
+    .rgt-bx .frame{
+
+       text-align: center;
+        margin: 0;
+        
+    }
+    .rgt-bx .frame iframe{
+        width: 98%;
+    }
+    .icon{
+        margin-left: 20px;
+    }
+}
+
+        /* ending box of form and google map  css */
+    </style>
+</head>
+<body>
+    <!-- form k main box-->
+    <div class="main">
+        <!-- contact us h1 -->
+<h1>Contact us</h1>
+<!--starting point of address box   -->
+<div class="box">
+    <div class="bx"><span>ADDRESS :</span>
+        <P>Saint Marco Street, 6th floor, Tokyo,Japan,123456.</P>
+
+    </div>
+    <div class="bx1"><p style="color: red;">
+        <i class="fa-solid fa-square-phone" style="color: #ff0000;"></i> +91 1234567890
+    </p>
+    <p style="color: #34c5b5;">
+        <i class="fa-solid fa-envelope" style="color: #34c5b5;"></i>
+    example@gmail.com</p>
+</div>
+    <div class="bx2">
+        <i class="fa-solid fa-location-dot fa-xl" style="color: #ff0000;"></i>
+    </div>
+</div>
+<!-- end point of address box -->
+
+<!-- starting box of form and google map -->
+<div class="box1">
+<div class="lf-bx">
+<div class="frm">
+    <div class="txt-lf">
+        <input type="text" name="" id="Name" placeholder="Name :" required>
+    </div>
+    <div class="txt-rgt">
+        <input type="text" name="" id="CompanyName" placeholder="Company :" required>
+    </div>
+</div>
+<div class="frm2">
+    <div class="txt1-lf">
+        <input type="email" name="" id="email" placeholder="Email : " required>
+    </div>
+    <div class="txt2-rgt">
+        <input type="tel" id="phone" name="phone" maxlength="10" placeholder="Mobile :" >
+    </div>
+</div>
+<div class="frm3">
+    <textarea name="massage" id=""  placeholder="Message :" required></textarea>
+</div>
+<div class="bt">
+<input type="submit">
+</div>
+</div>
+<div class="rgt-bx">
+    <div class="frame">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14764.902150462238!2d73.1493088!3d22.307308499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1697992185106!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<div class="icon">
+    <i class="fa-brands fa-facebook" style="color: #0d3a88;"></i>
+    <i class="fa-brands fa-twitter" style="color: #326bc8;"></i>
+    <i class="fa-brands fa-linkedin" style="color: #153b7c;"></i>
+    <i class="fa-brands fa-github" style="color: #000000;"></i>
+</div>
+</div>
+
+</div>
+<!-- end box of form and google map-->
+</div>
+</body>
+</html>
